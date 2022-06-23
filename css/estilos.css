@@ -6,7 +6,7 @@
 }
 
 .fotofondoH {
-    background-image: url(imagenes/1.jpg);
+    background-image: url(/css/1.jpg);
     background-size:cover;
     background-position:initial;
     background-repeat: no-repeat;
