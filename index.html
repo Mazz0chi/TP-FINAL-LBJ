@@ -119,11 +119,11 @@
     </section>
 
 
-    <form class="row g-1 needs-validation m-5 p-5" style="font-size: x-large; font-family: 'Source Sans 3', sans-serif; background-color:#00000086;" novalidate>
+    <form class="row g-1 needs-validation m-5 p-5" style="font-size: x-large; font-family: 'Source Sans 3', sans-serif; background-color:#00000086;" method="POST" data-netlify="true" novalidate>
         <h2 class="h2-MG">Newsletter</h2>
         <div class="col-md-5 P-5">
-          <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-          <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+          <label for="validationDefault01" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" id="validationDefault01" value="Nombre" required>
           <div class="valid-feedback">
             Perfecto!
           </div>
@@ -132,10 +132,10 @@
         <div class="col-md-2 espacio"></div>
 
         <div class="col-md-5">
-          <label for="validationCustomUsername" class="form-label">Email</label>
+          <label for="validationDefault02" class="form-label">Email</label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="inputGroupPrepend"></span>
-            <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <input type="email" class="form-control" id="validationDefault02" aria-describedby="inputGroupPrepend" required>
             <div class="invalid-feedback">
               Please put your email.
             </div>
@@ -145,8 +145,8 @@
         <div class="col-md-12 espacio"></div>
         
         <div class="col-md-5">
-            <label for="validationCustom04" class="form-label">País</label>
-            <select class="form-select" id="validationCustom04" required>
+            <label for="validationDefault03" class="form-label">País</label>
+            <select class="form-select" id="validationDefault03" required>
               <option selected disabled value="">Elegir...</option>
               <option>Argentina</option>
               <option>Chile</option>
@@ -163,8 +163,8 @@
           <div class="col-md-2 espacio"></div>
 
           <div class="col-md-5">
-            <label for="validationCustom03" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
+            <label for="validationDefault04" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationDefault04" required>
             <div class="invalid-feedback">
               Please provide a valid city.
             </div>
@@ -173,8 +173,8 @@
           <div class="col-md-12 espacio"></div>
          
           <div class="col-md-5">
-            <label for="validationCustom02" class="form-label">Fecha de Nacimiento</label>
-            <input type="date" class="form-control" id="validationCustom02" value="cumpleaños" required>
+            <label for="validationDefault05" class="form-label">Fecha de Nacimiento</label>
+            <input type="date" class="form-control" id="validationDefault05" value="cumpleaños" required>
             <div class="valid-feedback">
               Pon tu cumpleaños!
             </div>
@@ -184,8 +184,8 @@
 
         <div class="col-md-5 text-center p-4 ">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-            <label class="form-check-label" for="invalidCheck">
+            <input class="form-check-input" type="checkbox" value="" id="validationDefault06" required>
+            <label class="form-check-label" for="validationDefault06">
                 Acepto los terminos y condiciones
             </label>
            
@@ -245,7 +245,9 @@
 
       <footer class="container-fluids">
         <div class="logodos m-4 ">
+          <a href="index.html">
           <h2 class="h2-footerI">LBJ</h2>
+          </a>
         </div>
         
         

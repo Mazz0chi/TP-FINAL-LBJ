@@ -174,11 +174,20 @@ form {
     text-align: center;
     }
     
+    @keyframes animacionopa {
+
+        0%{opacity: 0;}
+        
+        100%{opacity: 100;}}
+
 
 .fondo-MG {
-    padding: 4%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    animation-name: animacionopa;
+    animation-duration: 4s;
+
 }
 
 
@@ -310,20 +319,16 @@ footer {display: flex;
     background-color: #8c52ff;
     flex-wrap: wrap;
     margin-top: 5%;
-    padding-bottom: 2%;
 
 }
         
-.redes{ 
-        width:100%;
-        margin-top: 2%;
-        text-align: right;
-        letter-spacing: 50px;
-        margin-right: 5%
-
-       }
-
-a {color: #8c52ff;}
+.redes {
+    width: 50%;
+    margin-top: 0;
+    text-align: right;
+    letter-spacing: 50px;
+    margin-right: 5%;
+}
 
 
 .h2-footer {
@@ -333,6 +338,7 @@ a {color: #8c52ff;}
         color: #ffde59;
         text-align: center;
         width: 60%;
+        text-shadow: #000000 1px 1px 1px;
 }
 
 .arriba {width: 50%;
@@ -360,6 +366,7 @@ a {color: #8c52ff;}
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    text-decoration: underline black;
 }
 
 .fotos-store {
@@ -376,13 +383,19 @@ a {color: #8c52ff;}
 .cajas-tienda:hover {
     box-shadow: #fff 0px 8px 28px;
     transition: all 1s ease-in-out ;
+    cursor: pointer;
+}
+
+.cajas-tienda {
+    text-decoration:underline none; 
 }
 
 .h2-footerI {
     font-family: 'Bebas Neue', cursive;
     text-align: left;
     color:yellow;
-    font-size: 70px
+    font-size: 70px;
+    text-decoration: underline #8c52ff;
 }
 
 footer {
@@ -410,12 +423,31 @@ footer {
         float: right;
     }
 
+    .redes {
+        padding-bottom: 5%;
+    }
 
+    .body-MG { 
+        color: white; 
+        margin: 0;
+        font-family: 'Bebas Neue', 'Roboto', sans-serif;
+        background-color: #000000;
+        background-image: url(celu.jpg);
+        background-position:center;
+        background-attachment:scroll;
+        background-repeat: no-repeat;
+        }
+
+    .Zapatillas {font-size: 70px;}
+    
 }    
 
 
 
 @media (max-width:711px) {
+
+    .fondo-MG {padding-top: 10%;
+    padding-bottom: 10%;}
 
     
     .h1-H {
@@ -457,9 +489,9 @@ footer {
 
     .h2-MG {font-size: 40px;}
 
-.perfil-cv {
+    .perfil-cv {
     font-size: 20px;
-} 
+    } 
 
     .flex-container-cv {
         flex-flow: column;
@@ -477,20 +509,38 @@ footer {
         text-align: left;
     }
 
-.derecha-cv {
+    .derecha-cv {
     margin-bottom: 10%;
-}
+    }
 
-.navbar {
+    .navbar {
     border: 1px solid #8c52ff;
     width: 90%;
     float: right;
-}
+    }
 
-.redes{ 
+    .redes{ 
     width:100%;
     margin-top: 2%;
     text-align: center;
     letter-spacing: 20px;
     margin-right: 0%;
+    padding-bottom: 5%;
+    }
+
+    .body-MG { 
+        color: white; 
+        margin: 0;
+        font-family: 'Bebas Neue', 'Roboto', sans-serif;
+        background-color: #000000;
+        background-image: url(celu.jpg);
+        background-position:center;
+        background-attachment:scroll;
+        background-repeat: no-repeat;
+        }
+
+    .Zapatillas {font-size: 60px;}
+
    }
+
+
