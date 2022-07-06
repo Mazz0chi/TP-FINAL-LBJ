@@ -47,40 +47,47 @@
                 <h1 class="h1-MG">Meet and Greet</h1>
 
             
-                <form class="row g-4 needs-validation p-5" style="font-size: x-large; background-color:#00000086;" method="POST" data-netlify="true">
+                <form class="row g-4 needs-validation p-5" style="font-size: x-large; background-color:#00000086;" method="POST" data-netlify="true" name="Meet and Greet">
                     <h2 class="h2-MG">Inscripción</h2>
                     <h2 class="h2-MG">30/06/2022</h2>
                     <div class="col-md-4">
                       <label for="validationDefault01" class="form-label">Nombre</label>
-                      <input type="text" class="form-control" id="validationDefault01" value="" required>
+                      <input type="text" class="form-control" id="validationDefault01" value="" name="Nombre" required>
                       <div class="valid-feedback">
                         Impecable!
                       </div>
                     </div>
                     <div class="col-md-4">
                       <label for="validationDefault02" class="form-label">Apellido</label>
-                      <input type="text" class="form-control" id="validationDefault02" value="" required>
+                      <input type="text" class="form-control" id="validationDefault02" value="" name="Apellido" required>
                       <div class="valid-feedback">
                         Impecable!
                       </div>
                     </div>
                     <div class="mb-3">
-                        <label for="validationDefault03" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="validationDefault03" aria-describedby="emailHelp">
+                        <label for="validationDefault03" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="validationDefault03" aria-describedby="emailHelp" name="Correo Electronico">
                         <div id="emailHelp" class="form-text" style="color:white">Nunca compartiremos esta información con nadie.</div>
                       </div>
                     <div class="col-md-6">
                       <label for="validationDefault03" class="form-label">Ciudad</label>
-                      <input type="text" class="form-control" id="validationDefault03" required>
+                      <input type="text" class="form-control" id="validationDefault03" name="ciudad" required>
                       <div class="invalid-feedback">
                         Por favor seleccione una ciudad valida.
                       </div>
                     </div>
                     <div class="col-md-3">
                       <label for="validationDefault04" class="form-label">Provincia</label>
-                      <select class="form-select" id="validationDefault04" required>
+                      <select class="form-select" id="validationDefault04" name="provincia" required>
                         <option selected disabled value="">Seleccionar...</option>
-                        <option>...</option>
+                        <option>
+                          <option>Buenos Aires</option>
+                          <option>Córdoba</option>
+                          <option>San Luis</option>
+                          <option>La Pampa</option>
+                          <option>Misiones</option>
+                          <option>Santa Fe</option>
+                        </option>
                       </select>
                       <div class="invalid-feedback">
                         Por favor seleccione una provincia valida.
@@ -88,7 +95,7 @@
                     </div>
                     <div class="col-md-3">
                       <label for="validationDefault05" class="form-label">CP</label>
-                      <input type="text" class="form-control" id="validationDefault05" required>
+                      <input type="text" class="form-control" id="validationDefault05" name="CP" required>
                       <div class="invalid-feedback">
                         Por favor proveer un CP válido.
                       </div>

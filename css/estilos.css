@@ -247,8 +247,8 @@ form {
 
 a:hover {
     color: #ffde59 ;
-    background-color: black;
     cursor: pointer;
+    
 }
 
 
@@ -331,6 +331,12 @@ footer {display: flex;
     margin-right: 5%;
 }
 
+a:hover {
+    background-color: none;
+    text-decoration: none;
+
+
+}
 
 .h2-footer {
     font-size: 50px;
